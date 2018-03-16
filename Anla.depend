@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1521230751 source:c:\users\chinois\documents\projets perso\anla\src\bag.cpp
+	"Bag.h"
+
+1521230751 c:\users\chinois\documents\projets perso\anla\include\bag.h
+
+1521230829 source:c:\users\chinois\documents\projets perso\anla\src\item.cpp
+	"Item.h"
+
+1521230829 c:\users\chinois\documents\projets perso\anla\include\item.h
+
+1521231808 source:c:\users\chinois\documents\projets perso\anla\src\character.cpp
+	<iostream>
+	"Character.h"
+
+1521231747 c:\users\chinois\documents\projets perso\anla\include\character.h
+	<string>
+	"Bag.h"
+
+1521231580 source:c:\users\chinois\documents\projets perso\anla\main.cpp
+	<iostream>
+	"Character.h"
+
