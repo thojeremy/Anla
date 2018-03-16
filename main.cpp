@@ -6,9 +6,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-
-    Character player("Alna", 2, 2);
+    Character player("Alna", 2, 2, 2, 2);
     player.introduction();
 
     return 0;

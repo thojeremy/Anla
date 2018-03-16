@@ -10,3 +10,7 @@ When you got bored of all those visual games and you want to go back to the basi
 # Languages
 
 * C++
+
+# How to play
+
+You can not play it yet !
