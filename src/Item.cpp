@@ -1,11 +1,31 @@
+#include <iostream>
+
 #include "Item.h"
 
-Item::Item()
-{
-    //ctor
-}
+using namespace std;
 
-Item::~Item()
-{
-    //dtor
+/**************
+ *
+ * Constructor
+ *
+ **************/
+Item::Item(){}
+
+/**************
+ *
+ * Destructor
+ *
+ **************/
+Item::~Item(){}
+
+/**************
+ *
+ * Actions
+ *
+ **************/
+/**
+ *  Shows the item's informations
+ */
+void Item::informations(){
+    cout << "TODO" << endl;
 }

@@ -8,6 +8,9 @@ class Item
         Item();
         virtual ~Item();
 
+        // Actions
+        void informations();
+
     protected:
 
     private:
