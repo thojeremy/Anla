@@ -2,6 +2,8 @@
 #define BAG_H
 
 #include <set>
+#include <iterator>
+#include <string>
 
 #include "Item.h"
 
@@ -12,13 +14,14 @@ class Bag
         virtual ~Bag();
 
         // Actions
-        void addItem(Item item);
-        Item removeItem(Item item);
+        void addItem(std::string name, int amount);
+        Item removeItem(std::string name, int amount);
+        void printItems();
 
     protected:
 
     private:
-        std::set<Item> items;
+        std::set<Item> m_items;
 };
 
 #endif // BAG_H
